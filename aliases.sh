@@ -61,9 +61,9 @@ alias gga='git gui citool --amend'
 
 alias ggpur='ggu'
 
-alias ggpull='git pull origin $(git_current_branch)'
+alias ggpull='git pull origin '
 
-alias ggpush='git push origin $(git_current_branch)'
+alias ggpush='git push origin '
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 alias gpsup='git push --set-upstream origin $(git_current_branch)'
